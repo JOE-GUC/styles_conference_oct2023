@@ -133,7 +133,7 @@ h5 {
  strong {
 	font-weight: 400;
 }
-cite, em {
+ cite, em {
 	font-style: italic;
 }
 a:hover {
@@ -152,16 +152,12 @@ a {
 	line-height: 44px;
 	padding: 40px 0 22px 0;
 }
-.tagline {
-	margin: 66px 0 22px 0;
-	/* clear: both; */
-	text-align: right;
-}
+
 .primary-nav {
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
-	padding-top: 44px;
+	
 	color: #648880;
 }
 .primary-footer {
@@ -182,6 +178,9 @@ a {
 }
 .hero h2 {
 	font-size: 36px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 .hero p {
 	font-size: 24px;
@@ -193,7 +192,7 @@ a {
 a {
 	color: #648880;
 	text-decoration: none;
-}
+}  
 p a {
 	border-bottom: 1px solid #dfe2e5;
 }
@@ -206,11 +205,12 @@ h5 {
 .primary-nav {
 	font-size: 14px;
 	font-weight: 400;
-	letter-spacing: 5px;
+	letter-spacing: .5px;
 	text-transform: uppercase;
 }
 .tagline {
-	margin: 66px 0 22px 0;
+	/* margin: 20px; */
+	padding: 35px 0 22px 0;
 	text-align: right;
 }
 .nav {
@@ -253,17 +253,8 @@ h5 {
 	min-height: 400px;
 	padding: 66px 0 44px 0;
 }
-.row,
-.row-alt {
-	min-width: 960px;
-}
-.row-alt {
-	background: #cbe2c1;
-	background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-	background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
-	padding: 0 0 22px 0;
-}
+
+
   /* 
   ====================================================
  BUTTONS STYLES
