@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>styles conference</title>
     <link rel="stylesheet" href="nav.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+
+   </head>
 <body>
-    <header class="container">
-       <h1>
-        <a href="nav.html"> Styles Conference</a>
+    <header class="primary-header container group">
+    <section class="row-alt">     
+<div>
+       <h1 class="logo">
+        <a href="nav.html">STYLES <br> CONFERENCE</a>
        </h1>
-        <h3>August 24&ndash; 26th &mdash; Chicago, IL</h3>
-    <Nav>
+</div>
+       </section>
+        <h3 class="tagline">August 24&ndash; 26th &mdash; Chicago, IL</h3>
+    <Nav class="nav primary nav">
         <a href="nav.html">Home</a>
         <a href="speakers.html">Speakers</a>
         <a href="schedule.html">Schedule</a>
@@ -25,33 +33,41 @@
         <p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the lastest technologies. join us this August!</p>
         <a class="btn btn-alt" href="register.html">REGISTER NOW</a>
     </section>
+    <section class="row">
 <section class="grid">
-    <section class="col-1-3">
+    <section class="teaser col-1-3">
         <h5>Speakers</h5>
+        <a href="speakers.html">
         <img src="./asset/images/speakers.jpg" alt="Speakers">
+        </a>
         <a href="Speakers.html">
            <h3>Word-Class Speakers</h3>
         </a>
         <p>Jioning us from all around the world are over twenty fantastic speakers, here to share thier stories.</p>
-    </section><!----><section class="col-1-3">
+    </section><!----><section class="teaser col-1-3">
         <h5>Schedule</h5>
+        <a href="schedule.html">
         <img src="./asset/images/schedule.jpg" alt="Schedule">
+        </a>
         <a href="Schedule.html">
            <h3>Three Inspiring Days</h3>
         </a>
         <p>Enjoy three inspiring and action-packed days of talks, gathering, and all-around good times.</p>
-    </section><!----><section class="col-1-3">
+    </section><!----><section class="teaser col-1-3">
         <h5>Venue</h5>
+        <a href="venue.html">
         <img src="./asset/images/venue.jpg" alt="Venue">
+        </a>
         <a href="Venue.html">
            <h3>The Chicago Theatre</h3>
         </a>
         <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.</p>
     </section>
 </section>
-    <footer class="container">
+</section>
+    <footer class="container group primary-footer">
         <small>&copy; Styles Conference</small> 
-        <Nav>
+        <Nav class="nav">
             <a href="nav.html">Home</a>
             <a href="speakers.html">Speakers</a>
             <a href="schedule.html">Schedule</a>
