@@ -20,7 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inheritg;
+	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -255,7 +255,7 @@ h5 {
 }
 .row,
 .row-alt {
-	min-width: 960;
+	min-width: 960px;
 }
 .row-alt {
 	background: -webkit-linear-gradient(to right #a1d3b0, #f6f1d3);
