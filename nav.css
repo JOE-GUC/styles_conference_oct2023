@@ -281,12 +281,34 @@ h5 {
 .nav li:last-child {
 	margin-right: 0;
 }
+/* 
+====================================================
+speaker page
+====================================================
+*/
+.speaker-info {
+	border: 1px solid #dfe2e5;
+	border-radius: 5px;
+	margin-top: 88px;
+	padding: 22px 0;
+	text-align: center;
+}
 .speaker-info img{
 border-radius: 50%;
 height: 130px;
 margin: -66px 0 22px 0;
 vertical-align: top;
 }
+.speaker {
+	margin-bottom: 44px;
+}
+
+
+/*  
+===================================================
+venue page
+===================================================
+*/
 .venue-map {
 	height: 264px;
 }
@@ -298,13 +320,11 @@ vertical-align: top;
 }
 
 
-
   /* 
   ====================================================
  BUTTONS STYLES
  =====================================================
   */
-
   .btn {
 	border-radius: 5px;
 	display: inline-block;
@@ -320,7 +340,6 @@ vertical-align: top;
  HOME STYLES
  =====================================================
    */
-
    .hero {
 	padding: 22px 80px 66px 80px;
    }
