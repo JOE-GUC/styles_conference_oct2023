@@ -51,22 +51,23 @@ table {
 ========================================================
 GRID STYLES
 ========================================================
- */
+*/
 
- *,
- *::before,
- *::after {
+*,
+*::before,
+*::after {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
- }
+	   box-sizing: border-box;
+	}
  body {
+	 
+	 background: #293f50;
+	 color: #888;
+	 font: 300 16px/22px "lato", "open Sans", "Helvetica Neue", Arial , sans-serif;
+	}
 	
-	background: #293f50;
-	color: #888;
-	font: 300 16px/22px "lato", "open Sans", "Helvetica Neue", Arial , sans-serif;
- }
-
+	
  .container, .grid {
 	width: 960px;
 	margin: 0 auto;
@@ -250,7 +251,6 @@ h5 {
 }
 .row {
 	background: #fff;
-	min-height: 400px;
 	padding: 66px 0 44px 0;
 }
 .row,
@@ -258,18 +258,21 @@ h5 {
 	min-width: 960px;
 }
 .row-alt {
-	background: -webkit-linear-gradient(to right #a1d3b0, #f6f1d3);
+	background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
 	background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
 	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
 	padding: 44px 0 22px 0;
+	margin-top: 2rem;
 }
-.lead {
+.lead{
 	text-align: center;
+	
 }
-.lead p {
+.lead p{
 	font-size: 21px;
 	line-height: 33px;
 }
+
 .nav li {
 	display: inline-block;
 	margin: 0 10px;
@@ -278,7 +281,44 @@ h5 {
 .nav li:last-child {
 	margin-right: 0;
 }
+/* 
+====================================================
+speaker page
+====================================================
+*/
+.speaker-info {
+	border: 1px solid #dfe2e5;
+	border-radius: 5px;
+	margin-top: 88px;
+	padding: 22px 0;
+	text-align: center;
+}
+.speaker-info img{
+border-radius: 50%;
+height: 130px;
+width: 130px;
+margin: -66px 0 22px 0;
+vertical-align: top;
+}
+.speaker {
+	margin-bottom: 44px;
+}
 
+
+/*  
+===================================================
+venue page
+===================================================
+*/
+.venue-map {
+	height: 264px;
+}
+.venue-theatre {
+	margin-bottom: 66px;
+}
+.venue-hotel {
+	margin-bottom: 22px;
+}
 
 
   /* 
@@ -286,7 +326,6 @@ h5 {
  BUTTONS STYLES
  =====================================================
   */
-
   .btn {
 	border-radius: 5px;
 	display: inline-block;
@@ -302,7 +341,6 @@ h5 {
  HOME STYLES
  =====================================================
    */
-
    .hero {
 	padding: 22px 80px 66px 80px;
    }
@@ -312,8 +350,3 @@ h5 {
  CUSTOM STYLE
  ======================================================
    */
-
-   body {
-	color: #888;
-	font: 300 16px/22px "Lato","Open Sans","Helvetica Nene", Helvetica, Arial, sans-serif;
-   }
